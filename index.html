@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Mundo de Julio Razeg!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap');
+
+        body {
+            background-color: #121212;
+            color: #00ff00;
+            font-family: 'Share Tech Mono', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 2px solid #333;
+            border-radius: 8px;
+            background-color: #1a1a1a;
+            padding: 30px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+        }
+
+        .header-command {
+            margin: 0;
+            color: #888;
+        }
+
+        .command-highlight {
+            color: #00ffff;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #f0f0f0;
+            font-size: 1.8em;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00ff00, 0 0 20px #00ff00;
+        }
+
+        .gif-container {
+            text-align: center;
+        }
+
+        .gif-container img {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 2px solid #00ff00;
+        }
+
+        .prompt {
+            color: #888;
+        }
+
+        .status-highlight {
+            color: #ff00ff;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li::before {
+            content: '=> ';
+            color: #00ff00;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #7171ff;
+            margin: 0 15px;
+            font-size: 1.5em;
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+
+        .links a:hover {
+            color: #ffff00;
+            text-shadow: 0 0 10px #ffff00;
+        }
+        
+        .footer {
+            text-align: right;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.4em;
+            }
+            .links a {
+                display: block;
+                margin: 15px 0;
+                font-size: 1.2em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p class="header-command">&gt; Executando: <span class="command-highlight">bemvindo.sh</span></p>
+        <br>
+        <h1>Olá, eu sou o Julio Razeg! 👋</h1>
+        <div class="gif-container">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2E4MDNmMzMyMGM2NjYyZmY1ZDYxY2U1MzExZDA3ODA3NzY5YWM5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btNa0RUYa5E7iiQ/giphy.gif" alt="GIF de um astronauta programando no espaço">
+        </div>
+        <p><span class="prompt">&gt; Status:</span> <span class="status-highlight">Explorando o universo do código</span> 🚀</p>
+        <br>
+        <p><span class="prompt">&gt; No momento, estou...</span></p>
+        <ul>
+            <li>👨‍💻 Criando projetos incríveis.</li>
+            <li>🧠 Aprendendo novas tecnologias.</li>
+            <li>☕ Abastecendo com muito café!</li>
+        </ul>
+        <br>
+        <p><span class="prompt">&gt; Onde me encontrar:</span></p>
+        <div class="links">
+            <a href="https://github.com/SUA-CONTA" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/SEU-PERFIL" target="_blank">LinkedIn</a>
+            <a href="mailto:SEU-EMAIL@exemplo.com">Email</a>
+        </div>
+        <p class="footer">Feito com ❤️ e algumas linhas de código.</p>
+    </div>
+
+</body>
+</html>
